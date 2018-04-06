@@ -1,0 +1,13 @@
+$(window).scroll(function(){
+	if($(document).scrollTop()>50){
+		$('nav').addClass('shrink');
+	}
+	else{
+		$('nav').removeClass('shrink');
+	}
+});
+$(function(){
+	setTimeout(function(){
+		$('.text-animation').removeClass('hidde'),500
+	});
+});
